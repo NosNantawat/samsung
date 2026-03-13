@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เกี่ยวกับเรา</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo-box">
+      <img src="images/Logo1.png" class="logo">
+    </div>
+     <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+    <ul id="menu">
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับเรา</a></li>
+      <li><a href="product.html">ผลิตภัณฑ์</a></li>
+      <li><a href="review.html">บริการลูกค้า</a></li>
+      <li><a href="join.html">ร่วมงานกับเรา</a></li>
+    </ul>
+  </div>
+  <div class="container">
+  </div>
+</header>
+
+<section class="img-about1">
+  <img src="images/about1.png" alt="profile">
+</section>
+
+<section class="img-about2">
+  <img src="images/about2.jpg" alt="profile">
+</section>
+
+<section class="img-about3">
+  <img src="images/about3.jpg" alt="profile">
+</section>
+
+<section class="img-about4">
+  <img src="images/about4.png" alt="profile">
+</section>
+
+<footer>
+  Samsung Life Korat | Nakhon Ratchasima  
+  Tel: 094-904-4440
+</footer>
+
+<script src="script.js"></script>
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("show");
+  });
+</script>
+</body>
+</html>
