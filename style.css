@@ -179,14 +179,14 @@ nav ul, .nav ul {
     }
 
     .logo { 
-    height:20px;
+    height:25px;
     width: auto ;
     display: block;
     filter: brightness(0) saturate(100%) invert(100%);
     }
 
     .logo img{
-    max-height: 20px;
+    max-height: 25px;
     height: auto ;
     width: auto;
     object-fit: contain;
