@@ -180,14 +180,14 @@ nav ul, .nav ul {
 
     .logo { 
     height:50px;
-    width: 100px;
+    width: 50px;
     display: block;
     filter: brightness(0) saturate(100%) invert(100%);
     }
 
     .logo img{
     max-height: 50px;
-    height: auto;
+    height: 20px ;
     width: auto;
     object-fit: contain;
     }
