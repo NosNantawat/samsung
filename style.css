@@ -179,7 +179,7 @@ nav ul, .nav ul {
     }
 
     .logo { 
-    height:50px;
+    height:30px;
     width: auto ;
     display: block;
     filter: brightness(0) saturate(100%) invert(100%);
