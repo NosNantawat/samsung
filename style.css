@@ -180,14 +180,14 @@ nav ul, .nav ul {
 
     .logo { 
     height:50px;
-    width: 50px;
+    width: auto ;
     display: block;
     filter: brightness(0) saturate(100%) invert(100%);
     }
 
     .logo img{
     max-height: 50px;
-    height: 20px ;
+    height: auto ;
     width: auto;
     object-fit: contain;
     }
@@ -225,7 +225,7 @@ footer {
 .img-index1 {
     width: 100%;
     margin-top: 0px;
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,7 +282,7 @@ footer {
 .img-about1 {
     width: 100%;
     margin-top: 0px;
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,7 +358,7 @@ footer {
 .img-review1 {
     width: 100%;
     margin-top: 0px;
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,7 +436,7 @@ footer {
 .img-product {
     width: 100%;
     margin-top: 0px;
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
