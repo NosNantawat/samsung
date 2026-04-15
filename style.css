@@ -85,7 +85,7 @@ body {
 }
 
 .logo img{
-    max-height: 45px;
+    max-height: 30px;
     height: auto;
     width: auto;
     object-fit: contain;
