@@ -186,7 +186,7 @@ nav ul, .nav ul {
     }
 
     .logo img{
-    max-height: 50px;
+    max-height: 30px;
     height: auto ;
     width: auto;
     object-fit: contain;
